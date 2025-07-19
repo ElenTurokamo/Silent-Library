@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 718462280d3b22c4aaa4e17f98bd7c5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3032254633089608109
+    second: Silent spritesheet big1_0
+  - first:
+      213: 2200310115196962965
+    second: Silent spritesheet big1_1
+  - first:
+      213: -9194052612026516662
+    second: Silent spritesheet big1_2
+  - first:
+      213: 5630629108256535073
+    second: Silent spritesheet big1_3
+  - first:
+      213: -7476954900783509549
+    second: Silent spritesheet big1_4
+  - first:
+      213: -4717393383307138518
+    second: Silent spritesheet big1_5
+  - first:
+      213: 8485341941523239789
+    second: Silent spritesheet big1_6
+  - first:
+      213: 5445969466363053062
+    second: Silent spritesheet big1_7
+  - first:
+      213: 3595678769192086791
+    second: Silent spritesheet big1_8
+  - first:
+      213: 221235120008726531
+    second: Silent spritesheet big1_9
+  - first:
+      213: 3662923491545905912
+    second: Silent spritesheet big1_10
+  - first:
+      213: 406820296059335592
+    second: Silent spritesheet big1_11
+  - first:
+      213: -5014997942128879160
+    second: Silent spritesheet big1_12
+  - first:
+      213: 2194204162531374169
+    second: Silent spritesheet big1_13
+  - first:
+      213: 2056282545740482270
+    second: Silent spritesheet big1_14
+  - first:
+      213: -9052791272436079253
+    second: Silent spritesheet big1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Silent spritesheet big1_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 384
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356592e0a744be5d0800000000000000
+      internalID: -3032254633089608109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 383
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598830c5462198e10800000000000000
+      internalID: 2200310115196962965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 383
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b38ed8cd9286080800000000000000
+      internalID: -9194052612026516662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 383
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122fa937753042e40800000000000000
+      internalID: 5630629108256535073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 255
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfce21e1258c3890800000000000000
+      internalID: -7476954900783509549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 255
+        width: 82
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a233236b3788eb0800000000000000
+      internalID: -4717393383307138518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 255
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63573ed98df1c570800000000000000
+      internalID: 8485341941523239789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 255
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604813c2068f39b40800000000000000
+      internalID: 5445969466363053062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 127
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dab143aca66e130800000000000000
+      internalID: 3595678769192086791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 127
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30806f36b2cf11300800000000000000
+      internalID: 221235120008726531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 127
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8faf601328155d230800000000000000
+      internalID: 3662923491545905912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 127
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3390267e055a500800000000000000
+      internalID: 406820296059335592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 82
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9d71631f5276ab0800000000000000
+      internalID: -5014997942128879160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 82
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954bd587f01637e10800000000000000
+      internalID: 2194204162531374169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed682b8a412698c10800000000000000
+      internalID: 2056282545740482270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent spritesheet big1_15
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65e0bc2d460e5280800000000000000
+      internalID: -9052791272436079253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 65b0060b0efe6aa4288e6a1bcd655294
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Silent spritesheet big1_0: -3032254633089608109
+      Silent spritesheet big1_1: 2200310115196962965
+      Silent spritesheet big1_10: 3662923491545905912
+      Silent spritesheet big1_11: 406820296059335592
+      Silent spritesheet big1_12: -5014997942128879160
+      Silent spritesheet big1_13: 2194204162531374169
+      Silent spritesheet big1_14: 2056282545740482270
+      Silent spritesheet big1_15: -9052791272436079253
+      Silent spritesheet big1_2: -9194052612026516662
+      Silent spritesheet big1_3: 5630629108256535073
+      Silent spritesheet big1_4: -7476954900783509549
+      Silent spritesheet big1_5: -4717393383307138518
+      Silent spritesheet big1_6: 8485341941523239789
+      Silent spritesheet big1_7: 5445969466363053062
+      Silent spritesheet big1_8: 3595678769192086791
+      Silent spritesheet big1_9: 221235120008726531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
