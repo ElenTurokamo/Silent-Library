@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 963b3987853734c4aada28e903035e52
+guid: 4cd44791cd3f30048a91627a4e42452b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8859914442277179423
-    second: Silent_Hand_L_Down_0
+      213: -3645541530289033498
+    second: Silent_Hand_R_Right_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,35 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Silent_Hand_L_Down_0
+      name: Silent_Idle_Hand_R_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ef27bfa1c24b0580800000000000000
-      internalID: -8859914442277179423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Silent_Hand_L_Down_1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 3
-        height: 8
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fc8b6f008202c24baa0a6fb92c5f672
-      internalID: 2049051133
+      spriteID: 42b4f9227fd9d72478d13f10384821f2
+      internalID: 258086211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silent_Hand_L_Down_2
+      name: Silent_Idle_Hand_R_Right_1
       rect:
         serializedVersion: 2
-        x: 6
+        x: 16
         y: 0
-        width: 3
-        height: 8
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a7fd344919b65b4e96441839a4bc33b
-      internalID: 1357753051
+      spriteID: 6b7d466f9dd0b934da4f138374d6a6a5
+      internalID: 807614425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silent_Hand_L_Down_3
+      name: Silent_Idle_Hand_R_Right_2
       rect:
         serializedVersion: 2
-        x: 9
+        x: 32
         y: 0
-        width: 3
-        height: 8
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be1ed6aa598fa1c46a9ef91fad471949
-      internalID: 403624158
+      spriteID: 02f83f6627f77d8458f5dce0145e1841
+      internalID: -289394014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silent_Hand_L_Down_4
+      name: Silent_Idle_Hand_R_Right_3
       rect:
         serializedVersion: 2
-        x: 12
+        x: 48
         y: 0
-        width: 3
-        height: 8
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c362051d3068542b775432bc7003fe
-      internalID: -1296344513
+      spriteID: 71dc501577bbcbd4681bd3727333a375
+      internalID: 545052565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silent_Hand_L_Down_5
+      name: Silent_Idle_Hand_R_Right_4
       rect:
         serializedVersion: 2
-        x: 15
+        x: 64
         y: 0
-        width: 3
-        height: 8
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b05e67f87e716409e1956660cdced2
-      internalID: -1747103945
+      spriteID: d0abb2bf2fb5c7c4ea79ed9386630fbf
+      internalID: 102603925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Silent_Hand_L_Down_6
+      name: Silent_Idle_Hand_R_Right_5
       rect:
         serializedVersion: 2
-        x: 18
+        x: 80
         y: 0
-        width: 3
-        height: 8
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,8 +238,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d00747ec9ad177469263552880a6e6c
-      internalID: 939510228
+      spriteID: 0cd131a354853b74c931c592a0e07c9f
+      internalID: 878298035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silent_Idle_Hand_R_Right_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128132ad5e8e17f4598e06af0610073d
+      internalID: -1718954119
       vertices: []
       indices: 
       edges: []
@@ -270,7 +270,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b45eee8e1b171504d8cffd26715a1ec0
+    spriteID: 76020c6046519d34a91922a2e20c5c9f
     internalID: 0
     vertices: []
     indices: 
@@ -279,18 +279,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries:
-      - key: SpriteEditor.SliceOnImport
-        value: False
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Silent_Hand_L_Down_0: -8859914442277179423
-      Silent_Hand_L_Down_1: 2049051133
-      Silent_Hand_L_Down_2: 1357753051
-      Silent_Hand_L_Down_3: 403624158
-      Silent_Hand_L_Down_4: -1296344513
-      Silent_Hand_L_Down_5: -1747103945
-      Silent_Hand_L_Down_6: 939510228
+      Silent_Idle_Hand_R_Right_0: 258086211
+      Silent_Idle_Hand_R_Right_1: 807614425
+      Silent_Idle_Hand_R_Right_2: -289394014
+      Silent_Idle_Hand_R_Right_3: 545052565
+      Silent_Idle_Hand_R_Right_4: 102603925
+      Silent_Idle_Hand_R_Right_5: 878298035
+      Silent_Idle_Hand_R_Right_6: -1718954119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

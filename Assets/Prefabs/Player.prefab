@@ -237,7 +237,6 @@ Transform:
   - {fileID: 8609438328072926630}
   - {fileID: 1218539829926175129}
   - {fileID: 8469511001859018001}
-  - {fileID: 1025204891441366518}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1663321481256587822
@@ -336,7 +335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 8
   anim: {fileID: 3490537946684203546}
-  inputState: {fileID: 116826167714028579}
 --- !u!95 &3490537946684203546
 Animator:
   serializedVersion: 7
@@ -490,8 +488,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8605735978173596148}
   - component: {fileID: 5913293160933855695}
-  - component: {fileID: 4031701801678698992}
+  - component: {fileID: 6814590118795684994}
   - component: {fileID: 1763138236583067666}
+  - component: {fileID: 4040787623112503926}
   m_Layer: 0
   m_Name: Hand_L
   m_TagString: Untagged
@@ -508,7 +507,7 @@ Transform:
   m_GameObject: {fileID: 5466454745670516950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5610001, y: 0.38999987, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -558,18 +557,18 @@ SpriteRenderer:
   m_SortingLayerID: -1533035057
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8859914442277179423, guid: 963b3987853734c4aada28e903035e52, type: 3}
+  m_Sprite: {fileID: -2093307980, guid: 0ead4aa257363d44982d1a040abb26bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.375, y: 1}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4031701801678698992
+--- !u!114 &6814590118795684994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -578,11 +577,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5466454745670516950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e9625ba38cf2c749911458ef2da9f79, type: 3}
+  m_Script: {fileID: 11500000, guid: 36278930d649fc14d9e6980094244aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 8
   anim: {fileID: 1763138236583067666}
-  inputState: {fileID: 116826167714028579}
 --- !u!95 &1763138236583067666
 Animator:
   serializedVersion: 7
@@ -605,6 +604,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &4040787623112503926
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466454745670516950}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 2
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &5518218085909992696
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,8 +672,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7176505389833400703}
   - component: {fileID: 8646929121680653412}
-  - component: {fileID: 1470288804848018516}
+  - component: {fileID: 6301689914708449374}
   - component: {fileID: 3826754699153003777}
+  - component: {fileID: 3929547561720895546}
   m_Layer: 0
   m_Name: Hand_R
   m_TagString: Untagged
@@ -664,7 +691,7 @@ Transform:
   m_GameObject: {fileID: 5549780051523360414}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5610001, y: 0.38999987, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -714,18 +741,18 @@ SpriteRenderer:
   m_SortingLayerID: -1533035057
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6465014172292771216, guid: 0823c900769f1794c95802c321b3a82b, type: 3}
+  m_Sprite: {fileID: -8859914442277179423, guid: bc5d6466cba4c1245b3162d686097d1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.375, y: 1}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1470288804848018516
+--- !u!114 &6301689914708449374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -734,11 +761,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5549780051523360414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e9625ba38cf2c749911458ef2da9f79, type: 3}
+  m_Script: {fileID: 11500000, guid: 36278930d649fc14d9e6980094244aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 8
   anim: {fileID: 3826754699153003777}
-  inputState: {fileID: 116826167714028579}
 --- !u!95 &3826754699153003777
 Animator:
   serializedVersion: 7
@@ -761,47 +788,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &7071887465668484378
-GameObject:
+--- !u!50 &3929547561720895546
+Rigidbody2D:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1025204891441366518}
-  - component: {fileID: 116826167714028579}
-  m_Layer: 0
-  m_Name: GetPlayerInputState
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1025204891441366518
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071887465668484378}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.99964, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1559261762372759608}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &116826167714028579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071887465668484378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ab1a379d82762c4d975b5e161ea5416, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_GameObject: {fileID: 5549780051523360414}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 2
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
