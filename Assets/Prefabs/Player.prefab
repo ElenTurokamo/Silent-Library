@@ -491,6 +491,7 @@ GameObject:
   - component: {fileID: 6814590118795684994}
   - component: {fileID: 1763138236583067666}
   - component: {fileID: 4040787623112503926}
+  - component: {fileID: 6021462060262727559}
   m_Layer: 0
   m_Name: Hand_L
   m_TagString: Untagged
@@ -631,6 +632,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &6021462060262727559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466454745670516950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe0e8b208d56c94092f6831e4469a23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceAnimator: {fileID: 3490537946684203546}
 --- !u!1 &5518218085909992696
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +689,7 @@ GameObject:
   - component: {fileID: 6301689914708449374}
   - component: {fileID: 3826754699153003777}
   - component: {fileID: 3929547561720895546}
+  - component: {fileID: 4456691396353213680}
   m_Layer: 0
   m_Name: Hand_R
   m_TagString: Untagged
@@ -815,3 +830,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &4456691396353213680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549780051523360414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe0e8b208d56c94092f6831e4469a23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceAnimator: {fileID: 3490537946684203546}
