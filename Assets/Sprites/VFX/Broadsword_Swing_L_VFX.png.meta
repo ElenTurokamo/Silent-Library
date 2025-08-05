@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: da4f9dbd4294d824898fe1ba906f030f
+guid: acc7deae7ec1e7f4fa37d52516131d3b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3596721384218095170
-    second: Broadsword_Swing_L_R_VFX_0
+      213: 3816951631783288856
+    second: Broadsword_Swing_L_VFX_0
   - first:
-      213: 5401220464652967134
-    second: Broadsword_Swing_L_R_VFX_1
+      213: -2325133811777180892
+    second: Broadsword_Swing_L_VFX_1
   - first:
-      213: -2029604194956460350
-    second: Broadsword_Swing_L_R_VFX_2
+      213: 7015394291928364256
+    second: Broadsword_Swing_L_VFX_2
   - first:
-      213: -3536249573858517935
-    second: Broadsword_Swing_L_R_VFX_3
+      213: 441991088805997166
+    second: Broadsword_Swing_L_VFX_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Broadsword_Swing_L_R_VFX_0
+      name: Broadsword_Swing_L_VFX_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 124
+        y: 2
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24eee5eea0f1ae130800000000000000
-      internalID: 3596721384218095170
+      spriteID: 8106a49394988f430800000000000000
+      internalID: 3816951631783288856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broadsword_Swing_L_R_VFX_1
+      name: Broadsword_Swing_L_VFX_1
       rect:
         serializedVersion: 2
         x: 144
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 7
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edcd53d456df4fa40800000000000000
-      internalID: 5401220464652967134
+      spriteID: 42b65c50e177bbfd0800000000000000
+      internalID: -2325133811777180892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broadsword_Swing_L_R_VFX_2
+      name: Broadsword_Swing_L_VFX_2
       rect:
         serializedVersion: 2
-        x: 192
+        x: 196
         y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ce3afcecb565d3e0800000000000000
-      internalID: -2029604194956460350
+      spriteID: 0e471b970ffab5160800000000000000
+      internalID: 7015394291928364256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broadsword_Swing_L_R_VFX_3
+      name: Broadsword_Swing_L_VFX_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 246
         y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15c59099fb7bceec0800000000000000
-      internalID: -3536249573858517935
+      spriteID: e6a6b22bd84422600800000000000000
+      internalID: 441991088805997166
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6a58bcb42a4bc7e468ba135c7a921f18
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -221,14 +221,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
-    nameFileIdTable:
-      Broadsword_Swing_L_R_VFX_0: 3596721384218095170
-      Broadsword_Swing_L_R_VFX_1: 5401220464652967134
-      Broadsword_Swing_L_R_VFX_2: -2029604194956460350
-      Broadsword_Swing_L_R_VFX_3: -3536249573858517935
+      entries: []
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
