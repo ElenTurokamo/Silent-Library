@@ -1,13 +1,23 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int health = 100;
+    [SerializeField] private float health = 100;
 
-    private int MAX_HEALTH = 100;
+    private float MAX_HEALTH;
+
+    public Image healthBar;
+
+
+    void Start()
+    {
+        MAX_HEALTH = health;
+    }
 
     void Update()
     {
+        healthBar.fillAmount = Mathf.Clamp(health / MAX_HEALTH, 0 , 1);
         if (Input.GetKeyDown(KeyCode.G))
         {
             Damage(10);
