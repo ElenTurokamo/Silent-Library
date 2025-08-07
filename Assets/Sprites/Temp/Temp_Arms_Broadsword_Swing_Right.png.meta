@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 417516a2b9a053740b9e0c1964b291a7
+guid: 0a805496c7cfb95478fca6947889781c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -360681129230964897
-    second: Arms_Broadsword_Swing_Right_0
+      213: 8409182041107475061
+    second: Temp_Arms_Broadsword_Swing_Right_0
   - first:
-      213: -6406150323112969141
-    second: Arms_Broadsword_Swing_Right_1
+      213: -2626487103061047894
+    second: Temp_Arms_Broadsword_Swing_Right_1
   - first:
-      213: -4957903888021075947
-    second: Arms_Broadsword_Swing_Right_2
+      213: 1001810564024797913
+    second: Temp_Arms_Broadsword_Swing_Right_2
   - first:
-      213: 3586235051266116662
-    second: Arms_Broadsword_Swing_Right_3
+      213: -7226906686612649648
+    second: Temp_Arms_Broadsword_Swing_Right_3
   - first:
-      213: 5226423669385479122
-    second: Arms_Broadsword_Swing_Right_4
+      213: -3613392971128568450
+    second: Temp_Arms_Broadsword_Swing_Right_4
   - first:
-      213: 5322836545341832699
-    second: Arms_Broadsword_Swing_Right_5
+      213: 7072822591724116153
+    second: Temp_Arms_Broadsword_Swing_Right_5
+  - first:
+      213: -3545364834366709837
+    second: Temp_Arms_Broadsword_Swing_Right_6
+  - first:
+      213: -729381818688500777
+    second: Temp_Arms_Broadsword_Swing_Right_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,111 +134,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arms_Broadsword_Swing_Right_0
+      name: Temp_Arms_Broadsword_Swing_Right_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7
+        y: 4
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5760078c6a9efaf0800000000000000
-      internalID: -360681129230964897
+      spriteID: 57a2ecb338a63b470800000000000000
+      internalID: 8409182041107475061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arms_Broadsword_Swing_Right_1
+      name: Temp_Arms_Broadsword_Swing_Right_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 56
+        y: 2
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4cf81de838c817a0800000000000000
-      internalID: -6406150323112969141
+      spriteID: aa5c6ee35e7dc8bd0800000000000000
+      internalID: -2626487103061047894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arms_Broadsword_Swing_Right_2
+      name: Temp_Arms_Broadsword_Swing_Right_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 56
+        y: 4
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 518c9f39eacf13bb0800000000000000
-      internalID: -4957903888021075947
+      spriteID: 9da8ee0766527ed00800000000000000
+      internalID: 1001810564024797913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arms_Broadsword_Swing_Right_3
+      name: Temp_Arms_Broadsword_Swing_Right_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 103
+        y: 7
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63c85c747cdd4c130800000000000000
-      internalID: 3586235051266116662
+      spriteID: 059ce8788aed4bb90800000000000000
+      internalID: -7226906686612649648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arms_Broadsword_Swing_Right_4
+      name: Temp_Arms_Broadsword_Swing_Right_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 117
+        y: 4
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d34a63f2acf78840800000000000000
-      internalID: 5226423669385479122
+      spriteID: e750df1cc36aaddc0800000000000000
+      internalID: -3613392971128568450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Arms_Broadsword_Swing_Right_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8d21b7ca6b72260800000000000000
+      internalID: 7072822591724116153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Arms_Broadsword_Swing_Right_6
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf1960a7755ccec0800000000000000
+      internalID: -3545364834366709837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Arms_Broadsword_Swing_Right_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db817fa917b0e5f0800000000000000
+      internalID: -729381818688500777
       vertices: []
       indices: 
       edges: []
@@ -241,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b7fca7e621cb44249931de62c025bd0d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -249,15 +321,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Arms_Broadsword_Swing_Right_0: -360681129230964897
-      Arms_Broadsword_Swing_Right_1: -6406150323112969141
-      Arms_Broadsword_Swing_Right_2: -4957903888021075947
-      Arms_Broadsword_Swing_Right_3: 3586235051266116662
-      Arms_Broadsword_Swing_Right_4: 5226423669385479122
+      Temp_Arms_Broadsword_Swing_Right_0: 8409182041107475061
+      Temp_Arms_Broadsword_Swing_Right_1: -2626487103061047894
+      Temp_Arms_Broadsword_Swing_Right_2: 1001810564024797913
+      Temp_Arms_Broadsword_Swing_Right_3: -7226906686612649648
+      Temp_Arms_Broadsword_Swing_Right_4: -3613392971128568450
+      Temp_Arms_Broadsword_Swing_Right_5: 7072822591724116153
+      Temp_Arms_Broadsword_Swing_Right_6: -3545364834366709837
+      Temp_Arms_Broadsword_Swing_Right_7: -729381818688500777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
