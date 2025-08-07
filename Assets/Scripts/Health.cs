@@ -17,7 +17,6 @@ public class Health : MonoBehaviour
 
     void Update()
     {
-        healthBar.fillAmount = Mathf.Clamp(health / MAX_HEALTH, 0 , 1);
         if (Input.GetKeyDown(KeyCode.G))
         {
             Damage(10);
@@ -28,6 +27,10 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void UpdateHealthBar()
+    {
+        healthBar.fillAmount = Mathf.Clamp(health / MAX_HEALTH, 0, 1);
+    }
     public void Damage(int amount)
     {
         if (amount < 0)
@@ -36,6 +39,7 @@ public class Health : MonoBehaviour
         }
 
         this.health -= amount;
+        UpdateHealthBar();
 
         if (health <= 0)
         {
@@ -59,6 +63,7 @@ public class Health : MonoBehaviour
         else
         {
             this.health += amount;
+            UpdateHealthBar();
         }
     }
 
@@ -67,4 +72,7 @@ public class Health : MonoBehaviour
         Debug.Log($"The {this} is dead");
         Destroy(gameObject);
     }
+
+    public float CurrentHealth => health;
+    public float MaxHealth => MAX_HEALTH;
 }
