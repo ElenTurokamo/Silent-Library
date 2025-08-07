@@ -333,8 +333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36278930d649fc14d9e6980094244aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 8
+  movementSpeed: 13
   anim: {fileID: 3490537946684203546}
+  isAttacking: 0
 --- !u!95 &3490537946684203546
 Animator:
   serializedVersion: 7
@@ -583,6 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 8
   anim: {fileID: 1763138236583067666}
+  isAttacking: 0
 --- !u!95 &1763138236583067666
 Animator:
   serializedVersion: 7
@@ -781,6 +783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 8
   anim: {fileID: 3826754699153003777}
+  isAttacking: 0
 --- !u!95 &3826754699153003777
 Animator:
   serializedVersion: 7
