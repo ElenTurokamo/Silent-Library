@@ -7,7 +7,7 @@ public class HealthSlidebarUI : MonoBehaviour
     public Image backBar;
 
     public Health healthScript;
-    public float lerpSpeed = 2f;
+    public float lerpSpeed = 1f;
 
     private float targetFill;
 
