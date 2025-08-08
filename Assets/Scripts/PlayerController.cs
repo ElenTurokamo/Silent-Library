@@ -9,8 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float X => InputDirection.x;
     public float Y => InputDirection.y;
     public bool IsMoving => InputDirection.magnitude > 0.01f;
-
-
+    private PlayerAttack attack;
     public float LastX { get; private set; }
     public float LastY { get; private set; }
 
@@ -20,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        attack = GetComponent<PlayerAttack>();
     }
 
     // Метод Update, вызывается каждый кадр.
@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         Animate();
     }
 
+    // Метод, который получает направление движения игрока в зависимости от нажатой клавиши.
     private void GetMovingDirection()
     {
         rb.linearVelocity = InputDirection * movementSpeed;
@@ -67,11 +68,15 @@ public class PlayerMovement : MonoBehaviour
     // Метод, который анимирует игрока в зависимости от его состояния        
     private void Animate()
     {
-        if (IsMoving)
+        if (!attack.IsAttacking)
         {
-            anim.SetFloat("X", X);
-            anim.SetFloat("Y", Y);
+            if (IsMoving)
+            {
+                anim.SetFloat("X", X);
+                anim.SetFloat("Y", Y);
+            }
         }
+
         anim.SetBool("Moving", IsMoving);
     }
 }

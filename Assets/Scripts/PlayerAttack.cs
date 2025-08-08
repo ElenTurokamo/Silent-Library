@@ -6,7 +6,10 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Animator anim;
     public bool IsAttacking = false;
     private PlayerMovement movement;
+    private float attackX;
+    private float attackY;
 
+    // Метод, который вызывается при запуске сцены. Передаёт в переменную movement скрипт, отвечающий за движение игрока.
     private void Start()
     {
         movement = GetComponent<PlayerMovement>();
@@ -25,11 +28,12 @@ public class PlayerAttack : MonoBehaviour
     // Метод атаки игрока. При нажатии левой кнопки мыши игрок атакует в зависимости от направления своего взгляда.
     public void TriggerAttack()
     {
+        attackX = movement.LastX;
+        attackY = movement.LastY;
         anim.SetBool("IsAttacking", true);
-        anim.SetFloat("X", movement.LastX);
-        anim.SetFloat("Y", movement.LastY);
-
-        // anim.SetTrigger("isAttacking");
+        anim.SetTrigger("TriggerAttack");
+        anim.SetFloat("X", attackX);
+        anim.SetFloat("Y", attackY);
     }
 
     // Вызывается ивентом в анимации, чтобы остановить атаку игрока
