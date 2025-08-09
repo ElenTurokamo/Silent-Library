@@ -37,16 +37,16 @@ public class BackWeaponRenderer : MonoBehaviour
     // 
     void Update()
     {
-        if (animator == null || weaponSprite == null)
+        if (animator == null || weaponSprite == null) return;
         
         if (animator.GetBool("IsAttacking"))
-            {
-                gameObject.GetComponent<SpriteRenderer>().enabled = false;
-            }
-            else
-            {
-                gameObject.GetComponent<SpriteRenderer>().enabled = true;
-            }
+        {
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        }
 
         float moveX = animator.GetFloat("X");
         float moveY = animator.GetFloat("Y");
