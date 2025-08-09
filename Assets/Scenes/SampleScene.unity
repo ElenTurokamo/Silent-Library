@@ -286,6 +286,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5518218085909992696, guid: 9a76b6f51367cc04a94b778893383dd3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 983365003}
+    - targetCorrespondingSourceObject: {fileID: 5518218085909992696, guid: 9a76b6f51367cc04a94b778893383dd3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 983365005}
   m_SourcePrefab: {fileID: 100100000, guid: 9a76b6f51367cc04a94b778893383dd3, type: 3}
 --- !u!4 &423066377 stripped
 Transform:
@@ -505,8 +508,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1554341941
-  m_SortingLayer: 4
+  m_SortingLayerID: -1533035057
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 6381545932276173328, guid: 903606632e33d7a4eb64ab1cfec69ab8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -519,6 +522,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &983365005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983365000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab14e32d394c0d74b885f1ec58283326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Character: {fileID: 1826969909}
+  weaponSprite: {fileID: 983365000}
+  positionUp: {x: 0, y: 1.2, z: -1}
+  positionDown: {x: 0, y: 1.2, z: 1}
+  positionLeft: {x: 0, y: 1.2, z: 1}
+  positionRight: {x: 0, y: 1.2, z: 1}
+  angleUp: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+  angleDown: {x: 0, y: 0, z: 0.70710677, w: -0.70710677}
+  angleLeft: {x: 0, y: 0, z: 0.70710677, w: -0.70710677}
+  angleRight: {x: 0, y: 0, z: 1, w: -0.00000004371139}
 --- !u!1 &1075942476
 GameObject:
   m_ObjectHideFlags: 0
