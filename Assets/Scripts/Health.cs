@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int health = 100;
+    [SerializeField] private float health = 100;
 
-    private int MAX_HEALTH;
+    private float MAX_HEALTH;
 
     public Image healthBar;
 
