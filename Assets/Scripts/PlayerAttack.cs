@@ -28,12 +28,12 @@ public class PlayerAttack : MonoBehaviour
     // Метод атаки игрока. При нажатии левой кнопки мыши игрок атакует в зависимости от направления своего взгляда.
     public void TriggerAttack()
     {
-        attackX = movement.LastX;
-        attackY = movement.LastY;
+        Vector2 lookDir = movement.LastLookDir;
+
         anim.SetBool("IsAttacking", true);
         anim.SetTrigger("TriggerAttack");
-        anim.SetFloat("X", attackX);
-        anim.SetFloat("Y", attackY);
+        anim.SetFloat("X", lookDir.x);
+        anim.SetFloat("Y", lookDir.y);
     }
 
     // Вызывается ивентом в анимации, чтобы остановить атаку игрока

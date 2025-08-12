@@ -536,6 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Character: {fileID: 1826969909}
   weaponSprite: {fileID: 983365000}
+  fadeSpeed: 9
   positionUp: {x: 0, y: 1.2, z: -1}
   positionDown: {x: 0, y: 1.2, z: 1}
   positionLeft: {x: 0, y: 1.2, z: 1}

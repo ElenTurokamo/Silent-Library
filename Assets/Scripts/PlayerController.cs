@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerAttack attack;
     public float LastX { get; private set; }
     public float LastY { get; private set; }
+    public Vector2 LastLookDir { get; private set; } = Vector2.down;
 
     private Rigidbody2D rb;
 
@@ -62,6 +64,11 @@ public class PlayerMovement : MonoBehaviour
             vertical = LastY;
 
         InputDirection = new Vector2(horizontal, vertical).normalized;
+
+        if (InputDirection != Vector2.zero && !attack.IsAttacking)
+        {
+            LastLookDir = InputDirection;
+        }
     }
 
 
