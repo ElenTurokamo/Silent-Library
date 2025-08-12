@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -6,12 +8,19 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Animator anim;
     public bool IsAttacking = false;
     private PlayerMovement movement;
-    private float attackX;
-    private float attackY;
+    private float timeToAttack = 0.25f;
+    private float timer = 0f;
+    private GameObject attackArea = default;
 
     // Метод, который вызывается при запуске сцены. Передаёт в переменную movement скрипт, отвечающий за движение игрока.
     private void Start()
     {
+        Transform root = transform.root;
+        Transform found = root.Find("AttackArea");
+        if (found != null)
+        {
+            attackArea = found.gameObject;
+        }
         movement = GetComponent<PlayerMovement>();
     }
 
@@ -23,6 +32,18 @@ public class PlayerAttack : MonoBehaviour
         {
             TriggerAttack();
         }
+
+        if (IsAttacking)
+        {
+            timer += Time.deltaTime;
+
+            if (timer >= timeToAttack)
+            {
+                timer = 0;
+                IsAttacking = false;
+                attackArea.SetActive(IsAttacking);
+            }
+        }
     }
 
     // Метод атаки игрока. При нажатии левой кнопки мыши игрок атакует в зависимости от направления своего взгляда.
@@ -30,6 +51,8 @@ public class PlayerAttack : MonoBehaviour
     {
         Vector2 lookDir = movement.LastLookDir;
 
+        IsAttacking = true;
+        attackArea.SetActive(IsAttacking);
         anim.SetBool("IsAttacking", true);
         anim.SetTrigger("TriggerAttack");
         anim.SetFloat("X", lookDir.x);

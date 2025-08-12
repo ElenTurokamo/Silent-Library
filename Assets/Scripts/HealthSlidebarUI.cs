@@ -9,11 +9,11 @@ public class HealthSlidebarUI : MonoBehaviour
     public Health healthScript;
     public float lerpSpeed = 1f;
 
-    private float targetFill;
+    // private float targetFill;
 
     void Start()
     {
-        targetFill = 1f;
+        // targetFill = 1f;
         frontBar.fillAmount = 1f;
         backBar.fillAmount = 1f;
 

@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private float health = 100;
+    [SerializeField] private int health = 100;
 
-    private float MAX_HEALTH;
+    private int MAX_HEALTH;
 
     public Image healthBar;
 
@@ -19,11 +19,11 @@ public class Health : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
-            Damage(10);
+            // Damage(10);
         }
         if (Input.GetKeyDown(KeyCode.H))
         {
-            Heal(10);
+            // Heal(10);
         }
     }
 
@@ -63,7 +63,7 @@ public class Health : MonoBehaviour
         else
         {
             this.health += amount;
-            UpdateHealthBar();
+            UpdateHealthBar();              
         }
     }
 
