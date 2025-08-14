@@ -85,6 +85,8 @@ public class PlayerAttack : MonoBehaviour
     // Вызывается ивентом в анимации, чтобы остановить атаку игрока
     public void EndAttack()
     {
+        syncHandAnimator.ReAttach();
+        attackArea.SetActive(false);
         anim.SetBool("IsAttacking", false);
     }
 
