@@ -11,13 +11,10 @@ public class PlayerAttack : MonoBehaviour
     private float timeToAttack = 0.25f;
     private float timer = 0f;
     private GameObject attackArea = default;
-    private SyncHandAnimator syncHandAnimator;
 
     // Метод, который вызывается при запуске сцены. Передаёт в переменную movement скрипт, отвечающий за движение игрока.
     private void Start()
     {
-        syncHandAnimator = GetComponentInChildren<SyncHandAnimator>();
-
         Transform root = transform.root;
         Transform found = root.Find("AttackArea");
         if (found != null)
@@ -52,60 +49,22 @@ public class PlayerAttack : MonoBehaviour
     // Метод атаки игрока. При нажатии левой кнопки мыши игрок атакует в зависимости от направления своего взгляда.
     public void TriggerAttack()
     {
-        Vector2 direction;
-        Vector2 cursorWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 cursorDir = (cursorWorldPos - (Vector2)transform.position).normalized;
-
-        if (cursorDir.magnitude > 0.01f)
-        {
-            direction = cursorDir;
-            syncHandAnimator.DetachAndAim(cursorWorldPos);
-
-            anim.SetFloat("X", direction.x);
-            anim.SetFloat("Y", direction.y);
-        }
-        else
-        {
-            direction = movement.LastLookDir;
-
-            anim.SetFloat("X", direction.x);
-            anim.SetFloat("Y", direction.y);
-        }
-
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-        if (angle > -45 && angle <= 45)
-        {
-            anim.SetFloat("X", 1);
-            anim.SetFloat("Y", 0);
-        }
-        else if (angle > 45 && angle <= 135)
-        {
-            anim.SetFloat("X", 0);
-            anim.SetFloat("Y", 1);
-        }
-        else if (angle < -45 && angle >= -135)
-        {
-            anim.SetFloat("X", 0);
-            anim.SetFloat("Y", -1);
-        }
-        else
-        {
-            anim.SetFloat("X", -1);
-            anim.SetFloat("Y", 0);
-        }
+        Vector2 lookDir = movement.LastLookDir;
 
         IsAttacking = true;
-        attackArea.SetActive(true);
+        attackArea.SetActive(IsAttacking);
         anim.SetBool("IsAttacking", true);
+        anim.SetTrigger("TriggerAttack");
+        anim.SetFloat("X", lookDir.x);
+        anim.SetFloat("Y", lookDir.y);
     }
 
     // Вызывается ивентом в анимации, чтобы остановить атаку игрока
     public void EndAttack()
     {
-        syncHandAnimator.ReAttach();
-        attackArea.SetActive(false);
+        IsAttacking = false;
         anim.SetBool("IsAttacking", false);
+
     }
 
 }
