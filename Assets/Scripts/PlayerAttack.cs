@@ -16,6 +16,8 @@ public class PlayerAttack : MonoBehaviour
     // Метод, который вызывается при запуске сцены. Передаёт в переменную movement скрипт, отвечающий за движение игрока.
     private void Start()
     {
+        syncHandAnimator = GetComponentInChildren<SyncHandAnimator>();
+
         Transform root = transform.root;
         Transform found = root.Find("AttackArea");
         if (found != null)
@@ -72,10 +74,26 @@ public class PlayerAttack : MonoBehaviour
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-        if (angle > -45 && angle <= 45) anim.SetTrigger("AttackRight");
-        else if (angle > 45 && angle <= 135) anim.SetTrigger("AttackUp");
-        else if (angle < -45 && angle >= -135) anim.SetTrigger("AttackDown");
-        else anim.SetTrigger("AttackLeft");
+        if (angle > -45 && angle <= 45)
+        {
+            anim.SetFloat("X", 1);
+            anim.SetFloat("Y", 0);
+        }
+        else if (angle > 45 && angle <= 135)
+        {
+            anim.SetFloat("X", 0);
+            anim.SetFloat("Y", 1);
+        }
+        else if (angle < -45 && angle >= -135)
+        {
+            anim.SetFloat("X", 0);
+            anim.SetFloat("Y", -1);
+        }
+        else
+        {
+            anim.SetFloat("X", -1);
+            anim.SetFloat("Y", 0);
+        }
 
         IsAttacking = true;
         attackArea.SetActive(true);
