@@ -7141,6 +7141,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1734554489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3148567983403925088, guid: 7cbbfde74441738448d01de98e339606, type: 3}
+  m_PrefabInstance: {fileID: 6755815525745997883}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1862867586 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7429168225650194618, guid: f2c29701028ca0f49ade21e808b5d9eb, type: 3}
@@ -7289,12 +7300,9 @@ PrefabInstance:
     - target: {fileID: 8491496301296916621, guid: 7cbbfde74441738448d01de98e339606, type: 3}
       propertyPath: frontBar
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8717656189812920706, guid: 7cbbfde74441738448d01de98e339606, type: 3}
-      propertyPath: m_Name
-      value: Enemy HP
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+      objectReference: {fileID: 1734554489}
+    m_RemovedComponents:
+    - {fileID: 7091759886367582955, guid: 7cbbfde74441738448d01de98e339606, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
