@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float health = 100;
+    [SerializeField] public GameObject HealVFX;
 
     private float MAX_HEALTH;
     public float lastHealTime = 0f;
@@ -24,7 +25,7 @@ public class Health : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.H))
         {
-            // Heal(10);
+            Heal(10);
         }
     }
 
@@ -64,6 +65,9 @@ public class Health : MonoBehaviour
         else
         {
             this.health += amount;
+            Vector3 offset = new Vector3(0, 1f, 0);
+            GameObject vfx = Instantiate(HealVFX, transform.position + offset, Quaternion.identity, transform);
+            Destroy(vfx, 1f);
             UpdateHealthBar();              
         }
     }

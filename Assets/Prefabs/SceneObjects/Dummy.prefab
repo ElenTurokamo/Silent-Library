@@ -442,7 +442,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0a76382224965b428107e85a436322e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 1000
+  HealVFX: {fileID: 2740306132918042050, guid: 15b79202d36bc1a4b95b741b2b179919, type: 3}
+  lastHealTime: 0
   healthBar: {fileID: 3148567983403925088}
 --- !u!61 &7339552015115161423
 BoxCollider2D:
