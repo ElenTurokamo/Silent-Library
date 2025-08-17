@@ -299,6 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  HealVFX: {fileID: 2740306132918042050, guid: 15b79202d36bc1a4b95b741b2b179919, type: 3}
   lastHealTime: 0
   healthBar: {fileID: 0}
 --- !u!114 &1808587417408542052
@@ -409,7 +410,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8605735978173596148}
   - component: {fileID: 5913293160933855695}
-  - component: {fileID: 6814590118795684994}
   - component: {fileID: 1763138236583067666}
   - component: {fileID: 4040787623112503926}
   - component: {fileID: 6021462060262727559}
@@ -492,20 +492,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6814590118795684994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5466454745670516950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36278930d649fc14d9e6980094244aea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 8
-  anim: {fileID: 1763138236583067666}
 --- !u!95 &1763138236583067666
 Animator:
   serializedVersion: 7
@@ -717,7 +703,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7176505389833400703}
   - component: {fileID: 8646929121680653412}
-  - component: {fileID: 6301689914708449374}
   - component: {fileID: 3826754699153003777}
   - component: {fileID: 3929547561720895546}
   - component: {fileID: 4456691396353213680}
@@ -800,20 +785,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6301689914708449374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5549780051523360414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36278930d649fc14d9e6980094244aea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 8
-  anim: {fileID: 3826754699153003777}
 --- !u!95 &3826754699153003777
 Animator:
   serializedVersion: 7
