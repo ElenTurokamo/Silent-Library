@@ -58535,13 +58535,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648987501}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.78648, y: -38.48018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 114035538}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1704969159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691555142
 GameObject:
@@ -123529,6 +123529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13106c8416c108e40b24cad0d623b4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tilemapRenderer: {fileID: 114035539}
+  fadeDuration: 1
 --- !u!61 &1704969158
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -123559,11 +123561,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.3268623, y: 0.044229507}
+  m_Offset: {x: 1.3268623, y: 0.49277687}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -123573,7 +123575,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.63179, y: 0.911541}
+  m_Size: {x: 6.63179, y: 0.07968521}
   m_EdgeRadius: 0
 --- !u!4 &1704969159
 Transform:
@@ -123587,7 +123589,8 @@ Transform:
   m_LocalPosition: {x: -35.78648, y: 38.48018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 648987503}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1862867586 stripped
@@ -123841,6 +123844,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6740829484583716422, guid: 3dac6b2dbf7523b45a5628bd9fa42f1c, type: 3}
+      propertyPath: m_Size.y
+      value: 3.2989087
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740829484583716422, guid: 3dac6b2dbf7523b45a5628bd9fa42f1c, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.2505457
+      objectReference: {fileID: 0}
     - target: {fileID: 7383871428010615425, guid: 3dac6b2dbf7523b45a5628bd9fa42f1c, type: 3}
       propertyPath: m_Name
       value: EmptyPortal
@@ -123980,4 +123991,3 @@ SceneRoots:
   - {fileID: 929332260}
   - {fileID: 1875491584462593946}
   - {fileID: 1704969159}
-  - {fileID: 648987503}
