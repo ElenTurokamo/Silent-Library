@@ -61,25 +61,24 @@ public class BackWeaponRenderer : MonoBehaviour
             spriteRenderer.color = c;
         }
 
-        float moveX = animator.GetFloat("X");
-        float moveY = animator.GetFloat("Y");
+        Vector2 dir = Character.GetComponent<PlayerMovement>().LastLookDir;
 
-        if (moveY > 0.5f)
+        if (dir.y > 0)
         {
             transform.localPosition = positionUp;
             transform.localRotation = angleUp;
         }
-        else if (moveY < -0.5f)
+        else if (dir.y < 0)
         {
             transform.localPosition = positionDown;
             transform.localRotation = angleDown;
         }
-        else if (moveX > 0.5f)
+        else if (dir.x > 0)
         {
             transform.localPosition = positionRight;
             transform.localRotation = angleRight;
         }
-        else if (moveX < -0.5f)
+        else if (dir.x < 0)
         {
             transform.localPosition = positionLeft;
             transform.localRotation = angleLeft;

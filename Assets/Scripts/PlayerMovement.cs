@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public float LastY { get; private set; }
     public Vector2 LastLookDir { get; private set; } = Vector2.down;
 
+
     private Rigidbody2D rb;
 
     // Метод Start, вызывается при создании игрока
@@ -35,42 +36,29 @@ public class PlayerMovement : MonoBehaviour
     // Метод, который получает направление движения игрока в зависимости от нажатой клавиши.
     private void GetMovingDirection()
     {
-        rb.linearVelocity = InputDirection * movementSpeed;
-        float horizontal = 0f;
-        float vertical = 0f;
-
-        if (Input.GetKeyDown(KeyCode.A))
-            LastX = -1;
-        if (Input.GetKeyDown(KeyCode.D))
-            LastX = 1;
-
-        if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
-            horizontal = -1;
-        else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
-            horizontal = 1;
-        else if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D))
-            horizontal = LastX;
-
-        if (Input.GetKeyDown(KeyCode.W))
-            LastY = 1;
-        if (Input.GetKeyDown(KeyCode.S))
-            LastY = -1;
-
-        if (Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
-            vertical = 1;
-        else if (Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W))
-            vertical = -1;
-        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.S))
-            vertical = LastY;
-
-        InputDirection = new Vector2(horizontal, vertical).normalized;
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical   = Input.GetAxisRaw("Vertical");
+        InputDirection   = new Vector2(horizontal, vertical).normalized;
 
         if (InputDirection != Vector2.zero && !attack.IsAttacking)
         {
-            LastLookDir = InputDirection;
+            // если обе оси не равны нулю → приоритет вправо/влево
+            if (InputDirection.x != 0 && InputDirection.y != 0)
+            {
+                LastLookDir = new Vector2(Mathf.Sign(InputDirection.x), 0);
+            }
+            else if (InputDirection.x != 0)
+            {
+                LastLookDir = new Vector2(Mathf.Sign(InputDirection.x), 0);
+            }
+            else if (InputDirection.y != 0)
+            {
+                LastLookDir = new Vector2(0, Mathf.Sign(InputDirection.y));
+            }
         }
-    }
 
+        rb.linearVelocity = InputDirection * movementSpeed;
+    }
 
     // Метод, который анимирует игрока в зависимости от его состояния        
     private void Animate()
@@ -79,8 +67,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (IsMoving)
             {
-                anim.SetFloat("X", X);
-                anim.SetFloat("Y", Y);
+                anim.SetFloat("X", LastLookDir.x);
+                anim.SetFloat("Y", LastLookDir.y);
             }
         }
 
