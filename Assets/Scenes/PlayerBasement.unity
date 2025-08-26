@@ -58683,15 +58683,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1952660303}
     m_Modifications:
     - target: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.13
+      value: -8.06478
       objectReference: {fileID: 0}
     - target: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.89
+      value: -4.47753
       objectReference: {fileID: 0}
     - target: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -58725,6 +58725,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6000975182443115229, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000975182443115229, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1838841159
+      objectReference: {fileID: 0}
     - target: {fileID: 8667011980921460983, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_Name
       value: Firefly (1)
@@ -58734,6 +58742,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+--- !u!4 &929332261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+  m_PrefabInstance: {fileID: 929332260}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1023887764
 GameObject:
   m_ObjectHideFlags: 0
@@ -123604,6 +123617,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1952660302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1952660303}
+  m_Layer: 0
+  m_Name: Fireflies decoration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952660303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952660302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.06522, y: 2.58753, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2121762500}
+  - {fileID: 929332261}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1974518301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123671,15 +123717,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1952660303}
     m_Modifications:
     - target: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.9
+      value: -1.8347802
       objectReference: {fileID: 0}
     - target: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.95
+      value: 0.36247015
       objectReference: {fileID: 0}
     - target: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -123713,6 +123759,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6000975182443115229, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000975182443115229, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1838841159
+      objectReference: {fileID: 0}
     - target: {fileID: 8667011980921460983, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
       propertyPath: m_Name
       value: Firefly
@@ -123722,6 +123776,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+--- !u!4 &2121762500 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4953420599906539760, guid: e4b32e3a0af1c514487783bd38cae1c6, type: 3}
+  m_PrefabInstance: {fileID: 2121762499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1758341378503289632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123987,7 +124046,6 @@ SceneRoots:
   - {fileID: 6755815525745997883}
   - {fileID: 1386325920}
   - {fileID: 6877625026855497588}
-  - {fileID: 2121762499}
-  - {fileID: 929332260}
   - {fileID: 1875491584462593946}
   - {fileID: 1704969159}
+  - {fileID: 1952660303}
